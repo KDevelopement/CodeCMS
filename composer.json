@@ -1,9 +1,14 @@
 {
     "name": "kseven/codecms",
     "type": "project",
+    "license": "MIT",
     "description": "Simples cms basicão com recursos codeigniter 4.",
     "homepage": "https://kseven.dev.br",
-    "license": "MIT",
+    "support": {
+        "forum": "https://forum.kseven.dev.br/",
+        "source": "https://kseven.dev.br/codecms",
+        "slack": "https://codecms.slack.com"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
@@ -39,10 +44,5 @@
     },
     "scripts": {
         "test": "phpunit"
-    },
-    "support": {
-        "forum": "https://forum.kseven.dev.br/",
-        "source": "https://kseven.dev.br/klicense",
-        "slack": "https://klicense.slack.com"
     }
 }
