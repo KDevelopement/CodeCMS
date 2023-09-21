@@ -16,7 +16,7 @@ The user guide corresponding to the latest version of the framework can be found
 
 ## Installation & updates
 
-`composer create-project codeigniter4/framework` then `composer update` whenever
+`composer create-project kseven/codecms` then `composer update` whenever
 there is a new release of the framework.
 
 When updating, check the release notes to see if there are any changes you might need to apply
