@@ -1,0 +1,11 @@
+@echo off
+
+set /p themes=Informe o caminho da pasta themes: 
+mklink /D themes "%themes%"
+echo A o link foi criado com sucessso!
+echo Link criado para: %themes%.
+
+set /p uploads=Informe o caminho da pasta uploads: 
+mklink /D uploads "%uploads%"
+echo A o link foi criado com sucessso!
+echo Link criado para: %uploads%.
